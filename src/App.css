@@ -1,0 +1,132 @@
+
+body {
+  background-color: lightgray
+}
+
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.cartLiItem {
+  color: red;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.cartLiItemChild {
+  margin: 10px;
+  width: 100px;
+}
+
+.cartLiTitle {
+  color: blue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartLiTitleChild {
+  margin: 10px;
+  width: 100px;
+}
+
+.addButton {
+  width: 120px;
+  height: 40px;
+  background-color: forestgreen;
+  color: white;
+}
+
+.cartImage {
+  width: 70px;
+  height: 70px;
+}
+
+.cartButton {
+  background: none;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.cartButton img {
+    height: 40px;
+    width: 40px;
+}
+
+.shopCartWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+}
+
+.shopLiItem {
+  color: red;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.oneMoreButton {
+  color: green;
+  background: none;
+  font-size: 30px;
+  border-style: none;
+  margin-bottom: 30px;
+}
+
+.oneLessButton {
+  color: red;
+  background: none;
+  font-size: 30px;
+  border-style: none;
+  margin-bottom: 30px;
+}
+
+.deleteButton {
+  background: none;
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.deleteButton img {
+    height: 20px;
+    width: 20px;
+}
+
+button :hover {
+  cursor: pointer;
+}
+
+.cartButton:hover {
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.continueShopping {
+  width: 200px;
+}
